@@ -1,0 +1,50 @@
+/* Header Area */
+
+.jumbotron {
+  text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-shadow: 2px 2px #000;
+}
+
+.jumbotron h1 {
+  color: #ffffff;
+}
+
+.bg-cover {
+  background-size: cover;
+  color: white;
+  background-position: center center;
+  position: relative;
+  z-index: -2;
+  background-image: url('../images/winterbedding-hero-crop.jpg');
+}
+
+.overlay {
+  background-color: #000;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/* Content Cards */
+.col-md-4 {
+  margin-bottom: 20px;
+}
+.col-3 {
+
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.card .row {
+  margin: 5px;
+}
+
+.thumbnail {
+  cursor: pointer;
+}
